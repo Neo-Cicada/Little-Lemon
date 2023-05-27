@@ -1,0 +1,17 @@
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+a{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}

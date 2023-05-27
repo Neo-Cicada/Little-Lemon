@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './nav-style/nav.css'
 export default function Navigation() {
   return (
     <>
         <nav>
-            <ul style={{display: 'flex', textStyle: 'none', gap: '10px'}}>
+            <ul>
                 <li><a href="#" role="button">Home</a></li>
                 <li><a href="#" role="button">About</a></li>
                 <li><a href="#" role="button">Menu</a></li>

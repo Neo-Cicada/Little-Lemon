@@ -1,0 +1,17 @@
+.hero{
+    /* border: 1px solid red; */
+    height: 406px;
+    background-color: #495E57;
+}
+.highlights{
+    height: 715px;
+    border: 1px solid red;
+}
+.testimonials{
+    height: 590px;
+    border: 1px solid red;
+}
+.about{
+    height: 578px;
+    border: 1px solid red;
+}
