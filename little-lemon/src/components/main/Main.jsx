@@ -1,6 +1,7 @@
 import React from 'react'
 import './main-styles/main.css'
 import image from './main-assets/restaurant chef B.jpg'
+import restauranFood from './main-assets/restauranfood.jpg'
 export default function Main() {
   return (
     <>
@@ -17,7 +18,7 @@ export default function Main() {
           </div>
 
           <div className='imageBox'>
-            <img src={image} alt="restaurant chef" />
+            <img src={restauranFood} alt="restaurant chef" />
           </div>
 
 
@@ -30,7 +31,14 @@ export default function Main() {
 
 
       <div className='highlights'>
+        <div className='highContainer'>
+          <div className='headContainer'>
+            <h1>Specials</h1>
 
+            <button>Online Menu</button>
+
+          </div>
+        </div>
       </div>
       <div className='testimonials'>
 

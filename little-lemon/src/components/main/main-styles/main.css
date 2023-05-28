@@ -19,6 +19,8 @@
 
 }
 .insideBox > h1{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: medium;
     font-size: 56px;
     color: #F4CE14;
@@ -28,6 +30,8 @@
     color: #EDEFFE;
 }
 .insideBox > .description{
+    font-family: 'Roboto';
+    font-style: normal;
     color: #EDEFFE;
     font-size: 20px;
     padding-top: 20px;
@@ -55,18 +59,47 @@
 }
 
 
-
-
-
-
+/* ################### */
 .highlights{
     height: 715px;
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.highlights > .highContainer{
+    border: 1px solid red;
+    height: 70%;
+    width: 55%;
+}
+.highContainer > .headContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.headContainer > button{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F4CE14;
+    border-style: none;
+    font-size: 18px;
+    color: #EDEFFE;
+}
+.headContainer > h1{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+/* ################### */
 .testimonials{
     height: 590px;
     border: 1px solid red;
 }
+/* ################### */
 .about{
     height: 578px;
     border: 1px solid red;
