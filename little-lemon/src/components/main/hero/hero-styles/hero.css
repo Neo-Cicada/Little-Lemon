@@ -1,0 +1,52 @@
+.heroBox{
+    width: 45em;
+    display: flex;
+    align-items: center;
+}
+
+.heroBox > .insideBox{
+    height: 331px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+.insideBox > h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 56px;
+    color: #F4CE14;
+}
+.insideBox > .location{
+    font-size: 32px;
+    color: #EDEFFE;
+}
+.insideBox > .description{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #EDEFFE;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.insideBox > button{
+    margin-top: 100px;
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F4CE14;
+    border-style: none;
+    font-size: 18px;
+    color: #EDEFFE;
+}
+.heroBox > .imageBox{
+    margin-left: 30px;
+    margin-top: 120px;
+    height: 417px;
+    width: 300px;
+}
+.imageBox > img{
+    height: 417px;
+    width: 300px;
+    border-radius: 20px;
+}
