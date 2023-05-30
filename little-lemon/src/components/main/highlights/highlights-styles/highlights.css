@@ -1,11 +1,15 @@
 .highlights > .highContainer{
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(18, 167, 13);
     height: 70%;
     width: 55%;
 }
 .highContainer > .headContainer{
     display: flex;
     justify-content: space-between;
+
 }
 .headContainer > button{
     height: 60px;
@@ -22,4 +26,12 @@
     font-weight: 500;
     font-size: 40px;
     color: #000000;
+}
+.highContainer > .bodyLights{
+    
+    display: flex;
+    align-self: center;
+    border: 1px solid red;
+    height: 70%;
+    width: 100%;
 }
