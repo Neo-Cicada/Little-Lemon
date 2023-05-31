@@ -7,14 +7,12 @@ export default function Highlights() {
       <div className='highContainer'>
         <div className='headContainer'>
           <h1>Specials</h1>
-
           <button>Online Menu</button>
-
         </div>
         <div className='bodyLights'>
-          <Card/>
-          <Card/>
-          <Card/>
+          <Card description='lorem epsum' />
+          <Card />
+          <Card />
         </div>
       </div>
     </>
