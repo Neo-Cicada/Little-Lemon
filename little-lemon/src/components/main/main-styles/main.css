@@ -22,7 +22,10 @@
 /* ################### */
 .testimonials{
     height: 590px;
-    border: 1px solid red;
+    background-color: #EE9972;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ################### */
 .about{

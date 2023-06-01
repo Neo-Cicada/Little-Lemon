@@ -4,6 +4,7 @@ import image from './main-assets/restaurant chef B.jpg'
 import restauranFood from './main-assets/restauranfood.jpg'
 import Hero from './hero/Hero'
 import Highlights from './highlights/Highlights'
+import Testimonials from './testimonials/Testimonials'
 export default function Main() {
   return (
     <>
@@ -15,7 +16,7 @@ export default function Main() {
         <Highlights/>
       </div>
       <div className='testimonials'>
-        
+        <Testimonials/>
       </div>
       <div className='about'>
 
