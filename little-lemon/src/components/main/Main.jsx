@@ -5,6 +5,7 @@ import restauranFood from './main-assets/restauranfood.jpg'
 import Hero from './hero/Hero'
 import Highlights from './highlights/Highlights'
 import Testimonials from './testimonials/Testimonials'
+import About from './about/About'
 export default function Main() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function Main() {
         <Testimonials/>
       </div>
       <div className='about'>
-
+        <About/>
       </div>
     </>
   )

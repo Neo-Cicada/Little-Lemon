@@ -1,0 +1,32 @@
+.footer{
+    height: 10%;
+    width: auto;
+
+    background-color: #FBDABB;
+    display: flex;
+    justify-content: center;
+}
+.container-footer{
+    width: 55%;
+    height: auto;
+    max-width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.contact, .social-media{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 4%;
+}
+.contact > ul, .social-media> ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}

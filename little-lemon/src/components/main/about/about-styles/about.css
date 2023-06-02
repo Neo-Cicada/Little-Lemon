@@ -1,0 +1,50 @@
+.container-about{
+
+    width: 55%;
+    height: 80%;
+    display: flex;
+    max-width: 700px;
+    min-width: 300px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.title > span{
+    font-size: 1.5rem;
+}
+.first-box{
+
+    width: 35%;
+}
+.first-box > p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: max(10px, 1rem);
+}
+.second-box{
+    width: 65%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 50%;
+    height: 60%;
+    margin: 1%;
+}
+.one{
+    margin-top: 30%;
+    z-index: 1;
+}
+.image > img{
+    height: 100%;
+    width: 100%;
+}
