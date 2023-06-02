@@ -3,7 +3,8 @@ import React from 'react'
 const styleCard= {
     borderRadius: '16px 16px 0px 0px',
     backgroundColor: '#EDEFEE',
-    minHeight: '350PX',
+    minHeight: '25em',
+    maxHeight: '15em'
 }
 
 const img = {
