@@ -1,16 +1,17 @@
 import React from 'react'
 import './nav-style/nav.css'
+import { Link } from 'react-router-dom'
 export default function Navigation() {
   return (
     <>
         <nav>
             <ul>
-                <li><a href="#" role="button">Home</a></li>
-                <li><a href="#" role="button">About</a></li>
-                <li><a href="#" role="button">Menu</a></li>
-                <li><a href="#" role="button">Reservation</a></li>
-                <li><a href="#" role="button">Order Online</a></li>
-                <li><a href="#" role="button">Login</a></li>
+                <li><Link to="/" >Home</Link></li>
+                <li><Link to="/" role="button">About</Link></li>
+                <li><Link to="/" role="button">Menu</Link></li>
+                <li><Link to="/" role="button">Reservation</Link></li>
+                <li><Link to="/" role="button">Order Online</Link></li>
+                <li><Link to="/" role="button">Login</Link></li>
 
             </ul>
         </nav>
