@@ -1,17 +1,22 @@
 nav{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
-
 }
 ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.5em;
     list-style-type: none;
 }
 a{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family: sans-serif;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+   nav{
+    display: none;
+   }
+  }

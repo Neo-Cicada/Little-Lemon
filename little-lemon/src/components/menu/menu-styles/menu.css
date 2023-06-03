@@ -1,0 +1,62 @@
+.menu-container{
+    height: 100vh;
+    width: 100%;
+    /* border: 0.1px solid red; */
+}
+.menu-hero{
+    background-color: #495E57;
+    height: 50%;
+
+}
+.menu-category{
+    height: 10%;
+    background-color: #226443;
+}
+.menu-content{
+    height: 40%;
+    background-color: gray;
+}
+.menu-title{
+
+    display: flex;
+    flex-direction: column;
+    color: #F4CE14;
+    font-size: 2.5rem;
+}
+.menu-title > span{
+    color: #EDEFEE;
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+
+}
+.little-hero-mobile{
+    display: flex;
+}
+.little-hero-mobile > .menu-context{
+    display: flex;
+    width: 50%;
+    height: 12em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-image{
+    border: 1px solid hotpink;
+    width: 50%;
+    height: 100%;
+}
+.menu-context > p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+.menu-context > button {
+    background: #F4CE14;
+    border-radius: 16px;
+    border: none;
+    height: 2.5em;
+    width: 10em;
+}
