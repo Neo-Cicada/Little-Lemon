@@ -16,9 +16,9 @@ function App() {
           <Route path='Menu' element={<Menu/>}/>
         </Routes>
       </main>
-      <footer>
+      {/* <footer>
         <Footer/>
-      </footer>
+      </footer> */}
 
 
     </>

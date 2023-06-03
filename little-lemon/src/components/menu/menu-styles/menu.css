@@ -1,15 +1,16 @@
 .menu-container{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     /* border: 0.1px solid red; */
 }
 .menu-hero{
     background-color: #495E57;
     height: 50%;
+    padding: 3%;
 
 }
 .menu-category{
-    height: 10%;
+    height: 15%;
     background-color: #226443;
 }
 .menu-content{
@@ -33,20 +34,24 @@
 }
 .little-hero-mobile{
     display: flex;
+    height: 70%;
 }
 .little-hero-mobile > .menu-context{
     display: flex;
     width: 50%;
-    height: 12em;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
 .menu-image{
-    border: 1px solid hotpink;
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu-context > p {
+    padding-top: 2em;
     font-family: 'Karla';
     font-style: normal;
     font-weight: medium;
@@ -59,4 +64,8 @@
     border: none;
     height: 2.5em;
     width: 10em;
+}
+.menu-image > img{
+    height: 70%;
+    width: 70%;
 }

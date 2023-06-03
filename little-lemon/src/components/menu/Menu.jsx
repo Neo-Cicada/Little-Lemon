@@ -1,5 +1,6 @@
 import React from 'react'
 import './menu-styles/menu.css'
+import food from '../main/main-assets/restauranfood.jpg'
 export default function Menu() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Menu() {
               <button>Reserve Table</button>
             </div>
             <div className='menu-image'>
-                qweqwe
+                <img src={food} alt="" />
             </div>
           </div>
         </div>
