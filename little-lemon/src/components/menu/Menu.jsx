@@ -1,6 +1,7 @@
 import React from 'react'
 import './menu-styles/menu.css'
 import food from '../main/main-assets/restauranfood.jpg'
+import Card from './menu-component/CardMenu'
 export default function Menu() {
   return (
     <>
@@ -18,10 +19,23 @@ export default function Menu() {
           </div>
         </div>
         <div className='menu-category'>
-
+          <div className='category-container'>
+            <h2>Order for Delivery</h2>
+          </div>
+          <div className='list-category'>
+            <ul id='slider'>
+              <li>Lunch</li>
+              <li>Mains</li>
+              <li>Desserts</li>
+              <li>ALaCarte</li>
+              <li>Special</li>
+            </ul>
+          </div>
         </div>
         <div className="menu-content">
-
+          <Card image={food}/>
+          <Card image={food}/>
+          <Card image={food}/>
         </div>
       </div>
     </>

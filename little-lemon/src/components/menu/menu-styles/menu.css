@@ -11,11 +11,9 @@
 }
 .menu-category{
     height: 15%;
-    background-color: #226443;
 }
 .menu-content{
     height: 40%;
-    background-color: gray;
 }
 .menu-title{
 
@@ -69,3 +67,40 @@
     height: 70%;
     width: 70%;
 }
+/* Menu Category */
+
+.menu-category > .category-container{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.list-category{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.list-category > ul > li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #EDEFEE;
+    height: 40%;
+    width: 5em;
+    border-radius: 16px;
+    color: #495E57;
+    padding: 0.4rem;
+}
+#slider {
+    list-style-type: none;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
