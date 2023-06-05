@@ -9,7 +9,7 @@ export default function Navigation() {
                 <li><Link to="/" >Home</Link></li>
                 <li><Link to="/" role="button">About</Link></li>
                 <li><Link to="Menu" role="button">Menu</Link></li>
-                <li><Link to="/" role="button">Reservation</Link></li>
+                <li><Link to="Reservation" role="button">Reservation</Link></li>
                 <li><Link to="/" role="button">Order Online</Link></li>
                 <li><Link to="/" role="button">Login</Link></li>
 
