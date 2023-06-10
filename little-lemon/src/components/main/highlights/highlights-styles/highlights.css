@@ -20,6 +20,7 @@
     border-style: none;
     font-size: 18px;
     color: #EDEFFE;
+    cursor: pointer;
 }
 .headContainer > h1{
     font-family: 'Karla';

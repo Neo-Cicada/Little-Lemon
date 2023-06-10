@@ -38,6 +38,7 @@
     border-style: none;
     font-size: 18px;
     color: #EDEFFE;
+    cursor: pointer;
 }
 .heroBox > .imageBox{
     margin-left: 30px;
