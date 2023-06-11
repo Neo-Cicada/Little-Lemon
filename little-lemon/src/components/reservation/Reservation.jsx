@@ -4,53 +4,49 @@ export default function Reservation() {
     return (
         <>
             <div className='reservation-container'>
-                <div className='reservation-header'>
-                    <h1>Little Lemon</h1>
-                    <h3>Reservation</h3>
+                <div>
+                    <h1>
+                        Little Lemon
+                    </h1>
+                    <h2>Reservation</h2>
                 </div>
 
-                <div className='reservation-body'>
+                <form action="#">
                     <div>
                         <div>
-                            <label htmlFor="">First Name</label>
-                            <input type="name" />
+                            <label htmlFor="firstname">First Name</label>
+                            <input type="text" name="firstname" id="firstname" />
+                        </div>
+                        <div>
+                            <label htmlFor="lastname">Last Name</label>
+                            <input type="text" name='lastname' id='lastname' />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label htmlFor="tnd">Time and Date</label>
+                            <input type="datetime-local" name="time and date" id='tnd'/>
+                        </div>
+                        <div>
+                            <label htmlFor="quantity">Number of people</label>
+                            <input type="number" name="quantity" id="quantity" />
                         </div>
 
-                        <div>
-                            <label htmlFor="">Last Name</label>
-                            <input type="name" />
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <div>
-                            <label htmlFor="">Time and Date</label>
-                            <input type="time" />
-                        </div>
-                        <div>
-                            <label htmlFor="">Number of People</label>
-                            <input type="number" />
-                        </div>
                     </div>
 
                     <div>
-                        <label htmlFor="">Special Request:</label>
-                        <input type="text" />
-                    </div>
-                </div>
-
-                <div className='reservation-footer'>
-                    <h4>Confirmation and Reminder</h4>
-                    <div>
                         <div>
-                            inbox image
+                            <label htmlFor="request">Special Request</label>
+                            <input type="text" name="request" id="request" />
                         </div>
                         <div>
-                            email image
+                            <div>confirmation</div>
+                        </div>
+                        <div>
+                            <button>Book now</button>
                         </div>
                     </div>
-                    <div><button>Book now</button></div>
-                </div>
+                </form>
             </div>
         </>
     )
