@@ -2,3 +2,79 @@
     border: 1px solid hotpink;
     height: 91.5vh;
 }
+.insider-box{
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reservation-title > h1{
+    color: #F4CE14;
+    font-size: 3rem;
+}
+.reservation-title > h2{
+    color: #2C302D;
+    font-size: 2rem;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.first-field{
+    display: flex;
+    gap: 1.1rem;
+}
+#firstname, #lastname, #quantity, #tnd, #request{
+
+    border: 3px solid #F4CE14;
+    border-radius: 5px;
+    height: 2.5em;
+    line-height: normal;
+    color: #282828;
+    display: block;
+    width: 10em;
+    box-sizing: border-box;
+    user-select: auto;
+    font-size: 16px;
+    padding: 0 6px;
+    padding-left: 12px;
+    :focus{
+        border: 3px solid #5551ff;
+    }
+
+}
+.second-field{
+    margin-top: 3em;
+    display: flex;
+    gap: 1.1rem;
+
+}
+.third-field{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+
+}
+.btn-area > button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0 24px;
+    border-radius: 50px;
+    min-width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #fd0;
+    font-weight: 500;
+    color: #222;
+}
+textarea {
+
+    max-height: 200px;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 150px;
+ }

@@ -4,50 +4,56 @@ export default function Reservation() {
     return (
         <>
             <div className='reservation-container'>
-                <div>
-                    <h1>
-                        Little Lemon
-                    </h1>
-                    <h2>Reservation</h2>
+                <div className='insider-box'>
+                    <div className='reservation-title'>
+                        <h1>
+                            Little Lemon
+                        </h1>
+                        <h2>Reservation</h2>
+                    </div>
+
+                    <form action="#">
+                        <div className='first-field'>
+                            <div>
+                                <input type="text" name="firstname" id="firstname" placeholder='First Name' />
+                            </div>
+                            <div>
+                                <input type="text" name='lastname' id='lastname' placeholder='Last Name' />
+                            </div>
+                        </div>
+                        <div className='second-field'>
+                            <div>
+                                <input type="datetime-local" name="time and date" id='tnd' />
+                            </div>
+                            <div>
+                                <input type="number" name="quantity" id="quantity" placeholder='Number of people' />
+                            </div>
+
+                        </div>
+
+                        <div className='third-field'>
+                            <div>
+                                <textarea type="text" name="request" id="request" placeholder='Special request' />
+                            </div>
+                            <div>
+                                <div>
+                                    <label htmlFor="email">Email</label>
+                                    <input type="checkbox" name="email" id="email" />
+                                </div>
+                                <div>
+                                    <label htmlFor="sms">SMS</label>
+                                    <input type="checkbox" name="sms" id="sms" />
+
+                                </div>
+                            </div>
+                            <div className='btn-area'>
+                                <button>Book now</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-
-                <form action="#">
-                    <div>
-                        <div>
-                            <label htmlFor="firstname">First Name</label>
-                            <input type="text" name="firstname" id="firstname" />
-                        </div>
-                        <div>
-                            <label htmlFor="lastname">Last Name</label>
-                            <input type="text" name='lastname' id='lastname' />
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label htmlFor="tnd">Time and Date</label>
-                            <input type="datetime-local" name="time and date" id='tnd'/>
-                        </div>
-                        <div>
-                            <label htmlFor="quantity">Number of people</label>
-                            <input type="number" name="quantity" id="quantity" />
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <div>
-                            <label htmlFor="request">Special Request</label>
-                            <input type="text" name="request" id="request" />
-                        </div>
-                        <div>
-                            <div>confirmation</div>
-                        </div>
-                        <div>
-                            <button>Book now</button>
-                        </div>
-                    </div>
-                </form>
             </div>
+
         </>
     )
 }
