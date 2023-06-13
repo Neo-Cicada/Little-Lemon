@@ -24,7 +24,13 @@
     display: flex;
     gap: 1.1rem;
 }
-#firstname, #lastname, #quantity, #tnd, #request{
+#firstname,
+#lastname,
+#quantity,
+#tnd,
+#request,
+#res-time,
+#res-confirmation{
 
     border: 3px solid #F4CE14;
     border-radius: 5px;
@@ -78,3 +84,8 @@ textarea {
     min-height: 100px;
     min-width: 150px;
  }
+
+form{
+    display: grid;
+    gap: 2em;
+}
