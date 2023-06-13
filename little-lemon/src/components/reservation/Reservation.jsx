@@ -10,7 +10,11 @@ export default function Reservation() {
     const handleSubmit = (event) =>{
         event.preventDefault();
         console.log(formData)
-
+        setFormData({
+            firstname: '',
+            lastname: '',
+            date:'',
+        })
     }
     return (
         <>
@@ -31,6 +35,7 @@ export default function Reservation() {
                                     name="firstname"
                                     id="firstname"
                                     placeholder='First Name'
+                                    value={formData.firstname}
                                     onChange={(event) => handleInput(event)}
                                     required />
                             </div>
